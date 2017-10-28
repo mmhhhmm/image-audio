@@ -30,6 +30,7 @@ void draw(){
     color c = img.get(int(x), int(y));
 
     stroke(c);
+    strokeWeight(10 + in.right.get(i));
     line(x, y,  150 + in.right.get(i)*1000, x + 10, y - 10, 150 + in.right.get(i+1)*100);
   }
 }
