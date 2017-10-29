@@ -31,7 +31,7 @@ void draw(){
 
     stroke(c);
     strokeWeight(10 + in.right.get(i));
-    line(x, y,  150 + in.right.get(i)*1000, x + 10, y - 10, 150 + in.right.get(i+1)*100);
+    line(x, y,  150 + in.right.get(i)*300, x + 10, y - 10, 150 + in.right.get(i+1)*300);
   }
 }
 }
